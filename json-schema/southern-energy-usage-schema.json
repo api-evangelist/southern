@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://api-evangelist.github.io/southern/json-schema/southern-energy-usage-schema.json",
+  "title": "Southern Company Energy Usage",
+  "description": "Daily or interval energy consumption data for a Southern Company utility account, measured in kilowatt-hours (kWh) for electric service or therms for natural gas service.",
+  "type": "object",
+  "properties": {
+    "accountNumber": {
+      "type": "string",
+      "description": "The utility account number associated with this usage data."
+    },
+    "usageDate": {
+      "type": "string",
+      "format": "date",
+      "description": "The date for which usage is reported (YYYY-MM-DD)."
+    },
+    "usageKwh": {
+      "type": "number",
+      "description": "Energy consumption in kilowatt-hours for electric service.",
+      "minimum": 0
+    },
+    "usageTherms": {
+      "type": "number",
+      "description": "Energy consumption in therms for natural gas service.",
+      "minimum": 0
+    },
+    "peakDemandKw": {
+      "type": "number",
+      "description": "Peak demand in kilowatts recorded during the usage period.",
+      "minimum": 0
+    },
+    "estimatedCost": {
+      "type": "number",
+      "description": "Estimated cost in US dollars for the recorded usage.",
+      "minimum": 0
+    },
+    "readType": {
+      "type": "string",
+      "enum": ["Actual", "Estimated", "Customer"],
+      "description": "Indicates whether the reading was actual (metered), estimated, or customer-reported."
+    },
+    "intervalMinutes": {
+      "type": "integer",
+      "enum": [15, 30, 60, 1440],
+      "description": "The interval length in minutes for interval data (15-min, 30-min, hourly, or daily)."
+    },
+    "temperature": {
+      "type": "number",
+      "description": "Average outdoor temperature in degrees Fahrenheit for the usage period."
+    }
+  },
+  "required": ["accountNumber", "usageDate"]
+}

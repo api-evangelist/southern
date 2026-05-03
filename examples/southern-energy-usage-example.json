@@ -1,0 +1,10 @@
+{
+  "accountNumber": "123456789",
+  "usageDate": "2026-04-15",
+  "usageKwh": 28.4,
+  "peakDemandKw": 4.2,
+  "estimatedCost": 3.71,
+  "readType": "Actual",
+  "intervalMinutes": 1440,
+  "temperature": 68
+}

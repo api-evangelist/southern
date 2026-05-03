@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "southern": "https://api-evangelist.github.io/southern/vocab#",
+
+    "SouthernCompany": "schema:Corporation",
+    "UtilityAccount": "schema:Account",
+    "EnergyUsage": "schema:QuantitativeValue",
+    "BillingPeriod": "schema:Duration",
+    "EnergyMeter": "schema:Product",
+    "OutageEvent": "schema:Event",
+    "ServiceAddress": "schema:PostalAddress",
+    "EnergyRate": "schema:PriceSpecification",
+
+    "accountNumber": {
+      "@id": "southern:accountNumber",
+      "@type": "xsd:string"
+    },
+    "serviceAddress": {
+      "@id": "schema:address",
+      "@type": "@id"
+    },
+    "usageKwh": {
+      "@id": "southern:usageKwh",
+      "@type": "xsd:decimal"
+    },
+    "usageTherms": {
+      "@id": "southern:usageTherms",
+      "@type": "xsd:decimal"
+    },
+    "billingAmount": {
+      "@id": "schema:price",
+      "@type": "xsd:decimal"
+    },
+    "billingPeriodStart": {
+      "@id": "schema:startDate",
+      "@type": "xsd:date"
+    },
+    "billingPeriodEnd": {
+      "@id": "schema:endDate",
+      "@type": "xsd:date"
+    },
+    "meterSerialNumber": {
+      "@id": "southern:meterSerialNumber",
+      "@type": "xsd:string"
+    },
+    "outageStartTime": {
+      "@id": "schema:startDate",
+      "@type": "xsd:dateTime"
+    },
+    "outageEndTime": {
+      "@id": "schema:endDate",
+      "@type": "xsd:dateTime"
+    },
+    "customersAffected": {
+      "@id": "southern:customersAffected",
+      "@type": "xsd:integer"
+    },
+    "rateSchedule": {
+      "@id": "southern:rateSchedule",
+      "@type": "xsd:string"
+    },
+    "subsidiary": {
+      "@id": "schema:parentOrganization",
+      "@type": "@id"
+    },
+    "AlabamaPower": "schema:Organization",
+    "GeorgiaPower": "schema:Organization",
+    "MississippiPower": "schema:Organization",
+    "SouthernCompanyGas": "schema:Organization"
+  }
+}

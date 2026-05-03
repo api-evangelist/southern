@@ -1,0 +1,64 @@
+{
+  "title": "Southern Company Utility Account Structure",
+  "description": "Hierarchical structure of a Southern Company utility account and associated data entities.",
+  "type": "object",
+  "structure": {
+    "account": {
+      "description": "Root utility account entity",
+      "fields": {
+        "accountNumber": "string — unique account identifier",
+        "accountName": "string — customer or business name",
+        "subsidiary": "string — Alabama Power | Georgia Power | Mississippi Power | Southern Company Gas",
+        "serviceType": "string — Electric | Natural Gas",
+        "rateSchedule": "string — regulatory tariff code",
+        "accountStatus": "string — Active | Inactive | Pending | Disconnected",
+        "currentBalance": "number — outstanding balance (USD)",
+        "dueDate": "date — payment due date"
+      },
+      "children": {
+        "serviceAddress": {
+          "description": "Physical service delivery address",
+          "fields": {
+            "street": "string",
+            "city": "string",
+            "state": "string",
+            "zipCode": "string"
+          }
+        },
+        "meter": {
+          "description": "Utility meter at service address",
+          "fields": {
+            "meterNumber": "string — meter serial/ID",
+            "meterType": "string — AMI (smart) | AMR | Manual",
+            "lastReadDate": "date",
+            "lastReadValue": "number"
+          }
+        },
+        "usageHistory": {
+          "description": "Array of daily or interval usage records",
+          "type": "array",
+          "items": {
+            "usageDate": "date",
+            "usageKwh": "number — electric consumption (kWh)",
+            "usageTherms": "number — gas consumption (therms)",
+            "estimatedCost": "number — USD",
+            "readType": "string — Actual | Estimated | Customer"
+          }
+        },
+        "billingHistory": {
+          "description": "Array of billing statements",
+          "type": "array",
+          "items": {
+            "billDate": "date",
+            "billingPeriodStart": "date",
+            "billingPeriodEnd": "date",
+            "totalAmount": "number — USD",
+            "amountDue": "number — USD",
+            "paidAmount": "number — USD",
+            "paidDate": "date"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,89 @@
+vocabulary:
+  name: Southern Company Vocabulary
+  description: >-
+    Domain vocabulary for Southern Company, covering electric and natural gas utility
+    operations, customer account management, energy usage data, billing, and regulatory
+    compliance terminology used across Alabama Power, Georgia Power, Mississippi Power,
+    and Southern Company Gas subsidiaries.
+  tags:
+    - Electric Utility
+    - Natural Gas
+    - Energy
+    - Fortune 500
+  terms:
+    - term: Account
+      definition: >-
+        A customer utility account representing the billing relationship between a
+        Southern Company subsidiary and a residential or commercial customer.
+      category: Customer Management
+    - term: Usage
+      definition: >-
+        Energy consumption data measured in kilowatt-hours (kWh) for electric service
+        or therms/CCF for natural gas service, recorded at regular intervals.
+      category: Energy Metering
+    - term: Billing Period
+      definition: >-
+        The monthly cycle during which energy usage is measured and billed to a customer.
+      category: Billing
+    - term: Rate Tariff
+      definition: >-
+        The regulatory-approved pricing schedule that determines how a customer is
+        charged for energy consumption, including base charges, energy rates, and
+        applicable riders.
+      category: Regulatory
+    - term: Demand
+      definition: >-
+        The maximum rate of electricity consumption (measured in kilowatts, kW) during
+        a defined period, used to determine demand charges for commercial customers.
+      category: Energy Metering
+    - term: Smart Meter
+      definition: >-
+        An advanced metering infrastructure (AMI) device that records energy usage at
+        short intervals and communicates this data digitally to the utility.
+      category: Energy Metering
+    - term: Green Button
+      definition: >-
+        A standardized data format and API specification that enables customers to
+        securely access and share their energy usage data with authorized third parties.
+      category: Data Standards
+    - term: Outage
+      definition: >-
+        An interruption of electric or gas service to one or more customers, tracked
+        by cause, duration, affected customers, and restoration time.
+      category: Operations
+    - term: Service Address
+      definition: >-
+        The physical location where utility service is delivered, associated with
+        a customer account and meter.
+      category: Customer Management
+    - term: Kilowatt-Hour (kWh)
+      definition: >-
+        The standard unit of electrical energy consumption, equal to the energy
+        delivered by one kilowatt of power sustained for one hour.
+      category: Energy Metering
+    - term: Subsidiary
+      definition: >-
+        A regulated operating utility company owned by Southern Company, including
+        Alabama Power, Georgia Power, Mississippi Power, and Southern Company Gas.
+      category: Corporate
+    - term: Investor Relations
+      definition: >-
+        Southern Company's program for communicating financial performance, governance,
+        and strategic information to shareholders, analysts, and potential investors.
+      category: Corporate
+    - term: Regulated Utility
+      definition: >-
+        A utility company whose rates and services are overseen by state public service
+        commissions, ensuring fair pricing and service standards.
+      category: Regulatory
+    - term: IRP (Integrated Resource Plan)
+      definition: >-
+        A long-term planning document filed by regulated utilities showing how they
+        will meet future electricity demand through a mix of generation sources.
+      category: Regulatory
+    - term: Renewable Energy
+      definition: >-
+        Electricity generated from sources that are naturally replenished, including
+        solar, wind, and hydropower, which Southern Company develops alongside
+        traditional generation sources.
+      category: Energy Generation

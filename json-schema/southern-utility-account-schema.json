@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://api-evangelist.github.io/southern/json-schema/southern-utility-account-schema.json",
+  "title": "Southern Company Utility Account",
+  "description": "Represents a Southern Company (Alabama Power, Georgia Power, Mississippi Power) utility customer account with associated service address, metering, and billing data.",
+  "type": "object",
+  "properties": {
+    "accountNumber": {
+      "type": "string",
+      "description": "Unique identifier for the utility account.",
+      "example": "123456789"
+    },
+    "accountName": {
+      "type": "string",
+      "description": "Name associated with the utility account (customer or business name).",
+      "example": "Jane Smith"
+    },
+    "subsidiary": {
+      "type": "string",
+      "enum": ["Alabama Power", "Georgia Power", "Mississippi Power", "Southern Company Gas"],
+      "description": "The Southern Company subsidiary providing service for this account."
+    },
+    "serviceAddress": {
+      "type": "object",
+      "description": "The physical address where utility service is delivered.",
+      "properties": {
+        "street": { "type": "string" },
+        "city": { "type": "string" },
+        "state": { "type": "string" },
+        "zipCode": { "type": "string" }
+      },
+      "required": ["street", "city", "state", "zipCode"]
+    },
+    "meterNumber": {
+      "type": "string",
+      "description": "Unique identifier for the utility meter at the service address."
+    },
+    "serviceType": {
+      "type": "string",
+      "enum": ["Electric", "Natural Gas"],
+      "description": "Type of utility service provided."
+    },
+    "rateSchedule": {
+      "type": "string",
+      "description": "The regulatory rate tariff code applied to this account (e.g., RS-9, GS-8)."
+    },
+    "accountStatus": {
+      "type": "string",
+      "enum": ["Active", "Inactive", "Pending", "Disconnected"],
+      "description": "Current status of the utility account."
+    },
+    "currentBalance": {
+      "type": "number",
+      "description": "Current account balance in US dollars.",
+      "minimum": 0
+    },
+    "dueDate": {
+      "type": "string",
+      "format": "date",
+      "description": "Date by which the current balance is due."
+    }
+  },
+  "required": ["accountNumber", "accountName", "subsidiary", "serviceAddress", "serviceType"]
+}

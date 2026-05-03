@@ -1,0 +1,17 @@
+{
+  "accountNumber": "123456789",
+  "accountName": "Jane Smith",
+  "subsidiary": "Georgia Power",
+  "serviceType": "Electric",
+  "rateSchedule": "RS-9",
+  "accountStatus": "Active",
+  "serviceAddress": {
+    "street": "1234 Peachtree St NE",
+    "city": "Atlanta",
+    "state": "GA",
+    "zipCode": "30309"
+  },
+  "meterNumber": "98765432",
+  "currentBalance": 142.87,
+  "dueDate": "2026-05-22"
+}
