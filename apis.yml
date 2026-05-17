@@ -60,7 +60,7 @@ common:
     url: https://www.southerncompany.com
   - type: Investor Relations
     url: https://investor.southerncompany.com/
-  - type: GitHub Organization
+  - type: GitHubOrganization
     url: https://github.com/Southern-Company-HA
   - type: LinkedIn
     url: https://www.linkedin.com/company/southern-company
