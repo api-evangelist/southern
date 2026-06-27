@@ -36,9 +36,9 @@ apis:
         url: https://www.southerncompany.com/
       - type: GitHub
         url: https://github.com/apearson/southern-company-api
-      - type: JSON Schema
+      - type: JSONSchema
         url: https://raw.githubusercontent.com/api-evangelist/southern/refs/heads/main/json-schema/southern-utility-account-schema.json
-      - type: JSON Schema
+      - type: JSONSchema
         url: https://raw.githubusercontent.com/api-evangelist/southern/refs/heads/main/json-schema/southern-energy-usage-schema.json
   - aid: southern:southern-company-investor-relations
     name: Southern Company Investor Relations
@@ -68,7 +68,7 @@ common:
     url: https://twitter.com/SouthernCompany
   - type: Facebook
     url: https://www.facebook.com/SOCompany
-  - type: JSON-LD Context
+  - type: JSONLDContext
     url: https://raw.githubusercontent.com/api-evangelist/southern/refs/heads/main/json-ld/southern-context.jsonld
   - type: Vocabulary
     url: https://raw.githubusercontent.com/api-evangelist/southern/refs/heads/main/vocabulary/southern-vocabulary.yml
