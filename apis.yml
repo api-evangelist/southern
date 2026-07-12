@@ -56,6 +56,8 @@ apis:
       - type: Download Library
         url: https://investor.southerncompany.com/news-and-resources/download-library/default.aspx
 common:
+  - type: DomainSecurity
+    url: security/southern-domain-security.yml
   - type: Website
     url: https://www.southerncompany.com
   - type: Investor Relations
