@@ -33,12 +33,6 @@ The Southern Company Customer Account API provides access to utility account dat
 - [JSON Schema - Utility Account](https://raw.githubusercontent.com/api-evangelist/southern/refs/heads/main/json-schema/southern-utility-account-schema.json)
 - [JSON Schema - Energy Usage](https://raw.githubusercontent.com/api-evangelist/southern/refs/heads/main/json-schema/southern-energy-usage-schema.json)
 
-### Southern Company Investor Relations
-
-Southern Company's investor relations portal provides financial data, earnings summaries, filings, reports, and shareholder information for investors and analysts.
-
-- [Investor Relations Portal](https://investor.southerncompany.com/home/default.aspx)
-- [Download Library](https://investor.southerncompany.com/news-and-resources/download-library/default.aspx)
 
 ## Common Properties
 
