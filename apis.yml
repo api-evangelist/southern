@@ -19,70 +19,68 @@ accessModel:
   label: Enterprise
   confidence: medium
   source:
-    - plans
+  - plans
   generated: '2026-07-22'
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/southern.png
 name: Southern Company
-description: >-
-  Southern Company is a leading American gas and electric utility holding company
-  headquartered in Atlanta, Georgia. Through its subsidiaries — Alabama Power, Georgia
-  Power, Mississippi Power, Southern Natural Gas, and Southern Company Gas — it serves
-  9 million gas and electric utility customers across 6 states. Southern Company is a
-  Fortune 500 company with operations spanning electricity generation, transmission,
-  distribution, and natural gas distribution.
+description: Southern Company is a leading American gas and electric utility holding company headquartered in Atlanta,
+  Georgia. Through its subsidiaries — Alabama Power, Georgia Power, Mississippi Power, Southern Natural Gas, and
+  Southern Company Gas — it serves 9 million gas and electric utility customers across 6 states. Southern Company
+  is a Fortune 500 company with operations spanning electricity generation, transmission, distribution, and natural
+  gas distribution.
 url: https://raw.githubusercontent.com/api-evangelist/southern/refs/heads/main/apis.yml
 created: '2026-03-21'
 modified: '2026-07-25'
 specificationVersion: '0.23'
 tags:
-  - Fortune 500
-  - Electric Utility
-  - Natural Gas
-  - Energy
+- Fortune 500
+- Electric Utility
+- Natural Gas
+- Energy
 apis:
-  - aid: southern:southern-company-customer-api
-    name: Southern Company Customer Account API
-    description: >-
-      The Southern Company Customer Account API provides access to utility account
-      data for Alabama Power, Georgia Power, and Mississippi Power customers. It
-      supports reading energy usage data, account balances, billing history, and
-      daily consumption data with costs and kilowatt-hour measurements.
-    humanURL: https://www.southerncompany.com/
-    baseURL: https://customerservice2.southernco.com
-    tags:
-      - Electric Utility
-      - Energy Usage
-      - Customer Data
-      - Billing
-    properties:
-      - type: Documentation
-        url: https://www.southerncompany.com/
-      - type: GitHub
-        url: https://github.com/apearson/southern-company-api
-      - type: JSONSchema
-        url: https://raw.githubusercontent.com/api-evangelist/southern/refs/heads/main/json-schema/southern-utility-account-schema.json
-      - type: JSONSchema
-        url: https://raw.githubusercontent.com/api-evangelist/southern/refs/heads/main/json-schema/southern-energy-usage-schema.json
+- aid: southern:southern-company-customer-api
+  name: Southern Company Customer Account API
+  description: The Southern Company Customer Account API provides access to utility account data for Alabama Power,
+    Georgia Power, and Mississippi Power customers. It supports reading energy usage data, account balances, billing
+    history, and daily consumption data with costs and kilowatt-hour measurements.
+  humanURL: https://www.southerncompany.com/
+  baseURL: https://customerservice2.southernco.com
+  tags:
+  - Electric Utility
+  - Energy Usage
+  - Customer Data
+  - Billing
+  properties:
+  - type: Documentation
+    url: https://www.southerncompany.com/
+  - type: GitHub
+    url: https://github.com/apearson/southern-company-api
+  - type: JSONSchema
+    url: https://raw.githubusercontent.com/api-evangelist/southern/refs/heads/main/json-schema/southern-utility-account-schema.json
+  - type: JSONSchema
+    url: https://raw.githubusercontent.com/api-evangelist/southern/refs/heads/main/json-schema/southern-energy-usage-schema.json
 common:
-  - type: DomainSecurity
-    url: security/southern-domain-security.yml
-  - type: Website
-    url: https://www.southerncompany.com
-  - type: Investor Relations
-    url: https://investor.southerncompany.com/
-  - type: GitHubOrganization
-    url: https://github.com/Southern-Company-HA
-  - type: LinkedIn
-    url: https://www.linkedin.com/company/southern-company
-  - type: X
-    url: https://twitter.com/SouthernCompany
-  - type: Facebook
-    url: https://www.facebook.com/SOCompany
-  - type: JSONLDContext
-    url: https://raw.githubusercontent.com/api-evangelist/southern/refs/heads/main/json-ld/southern-context.jsonld
-  - type: Vocabulary
-    url: https://raw.githubusercontent.com/api-evangelist/southern/refs/heads/main/vocabulary/southern-vocabulary.yml
+- type: DomainSecurity
+  url: security/southern-domain-security.yml
+- type: Website
+  url: https://www.southerncompany.com
+- type: Investor Relations
+  url: https://investor.southerncompany.com/
+- type: GitHubOrganization
+  url: https://github.com/Southern-Company-HA
+- type: LinkedIn
+  url: https://www.linkedin.com/company/southern-company
+- type: X
+  url: https://twitter.com/SouthernCompany
+- type: Facebook
+  url: https://www.facebook.com/SOCompany
+- type: JSONLDContext
+  url: https://raw.githubusercontent.com/api-evangelist/southern/refs/heads/main/json-ld/southern-context.jsonld
+- type: Vocabulary
+  url: https://raw.githubusercontent.com/api-evangelist/southern/refs/heads/main/vocabulary/southern-vocabulary.yml
+- type: Blog
+  url: https://www.southerncompany.com/newsroom.html
 maintainers:
-  - FN: API Evangelist
-    email: info@apievangelist.com
+- FN: API Evangelist
+  email: info@apievangelist.com
