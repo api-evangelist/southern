@@ -1,0 +1,14 @@
+{
+  "repo": "southern",
+  "feeds": [
+    {
+      "source": "https://raw.githubusercontent.com/api-evangelist/southern/refs/heads/main/vocabulary/southern-vocabulary.yml",
+      "feed_url": "https://raw.githubusercontent.com/api-evangelist/southern/refs/heads/main/vocabulary/southern-vocabulary.yml",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-09-06T19:17:18Z"
+}
