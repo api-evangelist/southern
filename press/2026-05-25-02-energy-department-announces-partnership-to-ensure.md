@@ -1,7 +1,9 @@
 ---
 title: Energy Department Announces Partnership to Ensure ...
 url: https://www.energy.gov/articles/energy-department-announces-partnership-ensure-affordable-energy-and-power-americas-ai
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Southern" press release artificial intelligence'
 position: 2
 source: serpapi-google

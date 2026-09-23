@@ -1,7 +1,9 @@
 ---
 title: Trump's “AI Action Plan” would let billionaire tech ...
 url: https://www.selc.org/press-release/trumps-ai-action-plan-would-let-billionaire-tech-companies-steamroll-local-communities/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Southern" press release artificial intelligence'
 position: 1
 source: serpapi-google

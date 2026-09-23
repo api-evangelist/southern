@@ -1,7 +1,9 @@
 ---
 title: SREB Commission on AI in Education
 url: https://www.sreb.org/sreb-commission-ai-education
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Southern" press release artificial intelligence'
 position: 3
 source: serpapi-google
